@@ -1,0 +1,17 @@
+lidar_detector_node:
+  ros__parameters:
+    min_x: 0.0
+    max_x: 20.0
+    min_y: -10.0
+    max_y: 10.0
+    min_z: -2.0
+    max_z: 1.0
+    ground_plane_distance_threshold: 0.2
+    cluster_tolerance: 0.5
+    min_cluster_size: 10
+    max_cluster_size: 25000
+    voxel_leaf_size: 0.5
+    min_points_per_voxel: 3
+    min_voxel_cluster_size_for_filtering: 150
+    max_voxel_cluster_for_output: 800
+    max_points_per_voxel_in_large_cluster: 10
