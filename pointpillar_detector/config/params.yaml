@@ -1,0 +1,9 @@
+pointpillar_detector_node:
+  ros__parameters:
+    voxel_size: [0.32, 0.32, 100.0]
+    max_voxels: 40000
+    max_points_in_pillar: 32
+    ranges: [-76.8, -76.8, -4.0, 76.8, 76.8, 6.0]
+    class_names: ["CAR", "TRUCK", "BUS", "BICYCLE", "PEDESTRIAN"]
+    iou_threshold: 0.05
+    score_threshold: 0.25
